@@ -1,0 +1,47 @@
+body {
+    /*Altura*/
+    height: 100%;
+    /*Largura*/
+    width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    /*Largura*/
+    width: 980px;
+    position: relative;
+}
+
+.menu-principal {
+    /*Largura*/
+    width: 100%;
+    /*Fundo*/
+    background-color: #252323;
+    /*Altura*/
+    height: 60px;
+}
+
+.logo {
+    /*poe o objeto flutuado*/
+    float: left;
+    /*Preenchimento de espaço*/
+    padding: 17px;
+    /*Largura*/
+    width: 70%;
+}
+
+.redes-sociais {
+    float: right;
+    width: 25%;
+}
+
+.redes-sociais ul li {
+    /*espacamento entre os elementos (icones)*/
+    margin-left: 20px;
+    /*poe o objeto flutuado*/
+    float: right;
+    /*poe em linha os elementos e tira as marcacoes*/
+    display: inline-block;
+    /*tira as marcacoes*/
+    list-style: none;
+}
